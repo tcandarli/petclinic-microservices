@@ -11,7 +11,7 @@ driver.get(base_url)
 source = driver.page_source
 
 if "I'm Feeling Lucky" in source:
-  print("Test passed")
+  print("Test passed!")
 else:
-  print("Test failed")
+  print("Test failed!")
 driver.close()
